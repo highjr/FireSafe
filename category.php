@@ -41,16 +41,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['action']) && $_POST['a
     error_log("category.php: Received update_sort_order request with POST data: " . json_encode($_POST));
     
     $record_ids_input = isset($_POST['record_ids']) ? $_POST['record_ids'] : '';
+
 $category_id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
-error_log("category.php: Debug - Retrieved category_id: $category_id");
-    $table = isset($_POST['table']) ? $_POST['table'] : '';
-    $valid_tables = ['instrument_inventory', 'uniform_inventory', 'music_library', 'roster'];
-    if (!in_array($table, $valid_tables)) {
-        error_log("category.php: Invalid table specified: $table");
-        echo json_encode(['status' => 'error', 'message' => 'Invalid table specified']);
-        session_write_close();
-        exit;
-    }
+$uri_params = [];
+parse_str($_SERVER['QUERY_STRING'] ?? '', $uri_params);
+$raw_id = isset($uri_params['id']) ? $uri_params['id'] : 'not set';
+if (!isset($_SESSION['user_id']) || !isset($_SESSION['role'])) {
+    error_log("category.php: Debug - Session incomplete, user_id: " . ($_SESSION['user_id'] ?? 'not set') . ", role: " . ($_SESSION['role'] ?? 'not set'));
+}
+error_log("category.php: Debug - Retrieved category_id: $category_id, Raw ID: $raw_id, Query String: " . ($_SERVER['QUERY_STRING'] ?? 'none') . ", URI: " . $_SERVER['REQUEST_URI'] . ", Session: " . json_encode($_SESSION));
+if ($category_id === 0 && strtolower($raw_id) === '14') {
+    $category_id = 14;
+    error_log("category.php: Forcing category_id to 14 based on parsed URI param");
+}
+
     $record_ids = !empty($record_ids_input) ? array_filter(array_map('intval', explode(',', $record_ids_input))) : [];
     if (empty($record_ids)) {
         error_log("category.php: No record IDs provided for sort order update");
@@ -732,26 +736,30 @@ if (!window.location.search.includes('t=') && window.location.search.indexOf('id
             </thead>
             <tbody>
 <?php
-$users_stmt = $mysqli->prepare("SELECT id, email, role FROM users ORDER BY id");
-if ($users_stmt === false) {
-    error_log("category.php: Failed to prepare users query for ID 14: " . $mysqli->error);
-    echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>Error loading users</td></tr>";
-} else {
-    $users_stmt->execute();
-    $users_result = $users_stmt->get_result();
-    if ($users_result->num_rows > 0) {
-        while ($user = $users_result->fetch_assoc()) {
-            echo "<tr>";
-            echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['id']) . "</td>";
-            echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['email']) . "</td>";
-            echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['role']) . "</td>";
-            echo "</tr>";
-        }
+if ($category_id == 14) {
+    error_log("category.php: Debug - Entering if block for category_id: $category_id");
+    $users_stmt = $mysqli->prepare("SELECT id, email, role FROM users ORDER BY id");
+    if ($users_stmt === false) {
+        error_log("category.php: Failed to prepare users query for ID 14: " . $mysqli->error);
+        echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>Error loading users: " . htmlspecialchars($mysqli->error) . "</td></tr>";
     } else {
-        error_log("category.php: No users found for ID 14");
-        echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>No users found</td></tr>";
+        $users_stmt->execute();
+        $users_result = $mysqli->get_result();
+        error_log("category.php: User query executed for ID 14, rows: " . ($users_result ? $users_result->num_rows : 'N/A'));
+        if ($users_result && $users_result->num_rows > 0) {
+            while ($user = $users_result->fetch_assoc()) {
+                echo "<tr>";
+                echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['id']) . "</td>";
+                echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['email']) . "</td>";
+                echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['role']) . "</td>";
+                echo "</tr>";
+            }
+        } else {
+            error_log("category.php: No users found for ID 14");
+            echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>No users found</td></tr>";
+        }
+        if ($users_stmt) $users_stmt->close();
     }
-    $users_stmt->close();
 }
 ?>
         </table>
@@ -824,7 +832,7 @@ if ($users_stmt === false) {
                             <div><p class="font-medium">Email:</p><p><?php echo htmlspecialchars($profile['guardian2_email'] ?: 'Not provided'); ?></p></div>
                         </div>
                     </div>
-                <?php else: ?>
+                	<?php else: ?>
                     <p class="text-gray-600">No profile data available. Please fill out your profile.</p>
                 <?php endif; ?>
                 <a href="user_profile.php" class="mt-4 inline-block bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700">Edit Profile</a>
@@ -1024,9 +1032,10 @@ if ($users_stmt === false) {
                     <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
                 </div>
 <?php else: ?>
-                <p class="text-gray-600">This section is under development. Check back soon for updates!</p>
-                <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
-            <?php endif; ?>
+    error_log("category.php: Debug - Falling back to else clause for category_id: $category_id");
+    <p class="text-gray-600">This section is under development. Check back soon for updates!</p>
+    <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
+<?php endif; ?>
         </div>
     </div>
 </div>
