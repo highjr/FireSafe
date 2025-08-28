@@ -1,0 +1,16 @@
+x - skipping first four records on import
+x - columns are shifted on instrument inventory
+x - Notes not showing on import for uniform inventory
+x - Multiple drag reorder not working
+x - want "Select All"/"Deselect All" header
+x - scrollbar at bottom of list - horizontal scroll bar only showing when you scroll all the way down to the bottom
+x - can we freeze table headers on inventory/library pages?
+x - decouple roster from user list
+
+
+
+x - un-hard-code table widths / just mins
+x - unfreeze headers, re-align, re-establish
+======================================================================
+======================================================================
+change table widths on "Roster" page
