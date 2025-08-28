@@ -735,18 +735,6 @@ if (!window.location.search.includes('t=') && window.location.search.indexOf('id
                 </tr>
             </thead>
             <tbody>
-<?php elseif ($category_id == 14): ?>
-    <div class="content-container">
-        <h2 class="text-2xl font-bold mb-4">User Management</h2>
-        <table class="min-w-full bg-white border">
-            <thead>
-                <tr>
-                    <th class="py-2 px-4 border text-center">ID</th>
-                    <th class="py-2 px-4 border text-center">Email</th>
-                    <th class="py-2 px-4 border text-center">Role</th>
-                </tr>
-            </thead>
-            <tbody>
                 <?php
                 error_log("category.php: Debug - Entering elseif block for category_id: $category_id");
                 $users_stmt = $mysqli->prepare("SELECT id, email, role FROM users ORDER BY id");
@@ -773,9 +761,6 @@ if (!window.location.search.includes('t=') && window.location.search.indexOf('id
                 }
                 ?>
             </tbody>
-        </table>
-        <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
-    </div>
         </table>
         <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
     </div>
@@ -1991,4 +1976,5 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
 <?php
 error_log("category.php: Step 36 - Script completed at " . microtime(true));
 ?>
+
 
