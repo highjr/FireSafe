@@ -831,7 +831,7 @@ if (!window.location.search.includes('t=') && window.location.search.indexOf('id
                             <div><p class="font-medium">Email:</p><p><?php echo htmlspecialchars($profile['guardian2_email'] ?: 'Not provided'); ?></p></div>
                         </div>
                     </div>
-                	<?php else: ?>
+                <?php else: ?>
                     <p class="text-gray-600">No profile data available. Please fill out your profile.</p>
                 <?php endif; ?>
                 <a href="user_profile.php" class="mt-4 inline-block bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700">Edit Profile</a>
@@ -839,45 +839,45 @@ if (!window.location.search.includes('t=') && window.location.search.indexOf('id
                 <div class="content-container">
                     <div class="table-scroll-wrapper">
                         <div class="overflow-x-auto">
-<table class="min-w-full bg-white border" id="instrumentTable">
-    <thead>
-        <tr>
-            <th class="py-2 px-4 border text-center instrument-col-reorder">Reorder</th>
-            <th class="py-2 px-4 border text-center checkbox-header instrument-col-checkbox"><input type="checkbox" id="selectAll"><br><span id="selectAllHeader">Select All</span></th>
-            <th class="py-2 px-4 border text-center instrument-col-instrument-type"><a href="category.php?id=2&sort=instrument_type&order=<?php echo $sort === 'instrument_type' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Instrument Type <?php if ($sort === 'instrument_type') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
-            <th class="py-2 px-4 border text-center instrument-col-brand"><a href="category.php?id=2&sort=brand&order=<?php echo $sort === 'brand' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Brand <?php if ($sort === 'brand') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
-            <th class="py-2 px-4 border text-center instrument-col-model"><a href="category.php?id=2&sort=model&order=<?php echo $sort === 'model' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Model <?php if ($sort === 'model') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
-            <th class="py-2 px-4 border text-center instrument-col-serial-no"><a href="category.php?id=2&sort=serial_no&order=<?php echo $sort === 'serial_no' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Serial No. <?php if ($sort === 'serial_no') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
-            <th class="py-2 px-4 border text-center instrument-col-asset-no"><a href="category.php?id=2&sort=asset_no&order=<?php echo $sort === 'asset_no' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Asset No. <?php if ($sort === 'asset_no') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
-            <th class="py-2 px-4 border text-center instrument-col-description"><a href="category.php?id=2&sort=description&order=<?php echo $sort === 'description' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Description <?php if ($sort === 'description') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
-            <th class="py-2 px-4 border text-center instrument-col-condition-notes"><a href="category.php?id=2&sort=condition_notes&order=<?php echo $sort === 'condition_notes' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Condition/Notes <?php if ($sort === 'condition_notes') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
-            <th class="py-2 px-4 border text-center instrument-col-actions">Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php foreach ($inventory_records as $record): ?>
-            <tr data-id="<?php echo $record['id']; ?>">
-                <td class="py-2 px-4 border text-center instrument-col-reorder"><span class="drag-handle" draggable="true">☰</span></td>
-                <td class="py-2 px-4 border text-center instrument-col-checkbox"><input type="checkbox" class="rowCheckbox" value="<?php echo $record['id']; ?>"></td>
-                <td class="py-2 px-4 border instrument-col-instrument-type"><?php echo htmlspecialchars($record['instrument_type']); ?></td>
-                <td class="py-2 px-4 border instrument-col-brand"><?php echo htmlspecialchars($record['brand']); ?></td>
-                <td class="py-2 px-4 border text-center instrument-col-model"><?php echo htmlspecialchars($record['model']); ?></td>
-                <td class="py-2 px-4 border text-center instrument-col-serial-no"><?php echo htmlspecialchars($record['serial_no']); ?></td>
-                <td class="py-2 px-4 border text-center instrument-col-asset-no"><?php echo htmlspecialchars($record['asset_no']); ?></td>
-                <td class="py-2 px-4 border instrument-col-description"><?php echo htmlspecialchars($record['description']); ?></td>
-                <td class="py-2 px-4 border instrument-col-condition-notes"><?php echo htmlspecialchars($record['condition_notes']); ?></td>
-                <td class="py-2 px-4 border text-center instrument-col-actions">
-                    <a href="#" onclick="openFormModal('instrument_inventory_form.php?record_id=<?php echo $record['id']; ?>'); return false;" class="text-blue-600 hover:underline mr-2">Edit</a>
-                    <form method="POST" action="" class="inline">
-                        <input type="hidden" name="record_id" value="<?php echo $record['id']; ?>">
-                        <input type="hidden" name="category_id" value="2">
-                        <button type="submit" name="delete_record" class="text-red-600 hover:underline" onclick="return confirm('Are you sure you want to delete this record?')">Delete</button>
-                    </form>
-                </td>
-            </tr>
-        <?php endforeach; ?>
-    </tbody>
-</table>
+                            <table class="min-w-full bg-white border" id="instrumentTable">
+                                <thead>
+                                    <tr>
+                                        <th class="py-2 px-4 border text-center instrument-col-reorder">Reorder</th>
+                                        <th class="py-2 px-4 border text-center checkbox-header instrument-col-checkbox"><input type="checkbox" id="selectAll"><br><span id="selectAllHeader">Select All</span></th>
+                                        <th class="py-2 px-4 border text-center instrument-col-instrument-type"><a href="category.php?id=2&sort=instrument_type&order=<?php echo $sort === 'instrument_type' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Instrument Type <?php if ($sort === 'instrument_type') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
+                                        <th class="py-2 px-4 border text-center instrument-col-brand"><a href="category.php?id=2&sort=brand&order=<?php echo $sort === 'brand' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Brand <?php if ($sort === 'brand') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
+                                        <th class="py-2 px-4 border text-center instrument-col-model"><a href="category.php?id=2&sort=model&order=<?php echo $sort === 'model' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Model <?php if ($sort === 'model') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
+                                        <th class="py-2 px-4 border text-center instrument-col-serial-no"><a href="category.php?id=2&sort=serial_no&order=<?php echo $sort === 'serial_no' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Serial No. <?php if ($sort === 'serial_no') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
+                                        <th class="py-2 px-4 border text-center instrument-col-asset-no"><a href="category.php?id=2&sort=asset_no&order=<?php echo $sort === 'asset_no' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Asset No. <?php if ($sort === 'asset_no') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
+                                        <th class="py-2 px-4 border text-center instrument-col-description"><a href="category.php?id=2&sort=description&order=<?php echo $sort === 'description' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Description <?php if ($sort === 'description') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
+                                        <th class="py-2 px-4 border text-center instrument-col-condition-notes"><a href="category.php?id=2&sort=condition_notes&order=<?php echo $sort === 'condition_notes' && $order === 'ASC' ? 'desc' : 'asc'; ?>" class="text-blue-600 hover:underline" title="Sort By">Condition/Notes <?php if ($sort === 'condition_notes') echo $order === 'ASC' ? '↑' : '↓'; ?></a></th>
+                                        <th class="py-2 px-4 border text-center instrument-col-actions">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php foreach ($inventory_records as $record): ?>
+                                        <tr data-id="<?php echo $record['id']; ?>">
+                                            <td class="py-2 px-4 border text-center instrument-col-reorder"><span class="drag-handle" draggable="true">☰</span></td>
+                                            <td class="py-2 px-4 border text-center instrument-col-checkbox"><input type="checkbox" class="rowCheckbox" value="<?php echo $record['id']; ?>"></td>
+                                            <td class="py-2 px-4 border instrument-col-instrument-type"><?php echo htmlspecialchars($record['instrument_type']); ?></td>
+                                            <td class="py-2 px-4 border instrument-col-brand"><?php echo htmlspecialchars($record['brand']); ?></td>
+                                            <td class="py-2 px-4 border text-center instrument-col-model"><?php echo htmlspecialchars($record['model']); ?></td>
+                                            <td class="py-2 px-4 border text-center instrument-col-serial-no"><?php echo htmlspecialchars($record['serial_no']); ?></td>
+                                            <td class="py-2 px-4 border text-center instrument-col-asset-no"><?php echo htmlspecialchars($record['asset_no']); ?></td>
+                                            <td class="py-2 px-4 border instrument-col-description"><?php echo htmlspecialchars($record['description']); ?></td>
+                                            <td class="py-2 px-4 border instrument-col-condition-notes"><?php echo htmlspecialchars($record['condition_notes']); ?></td>
+                                            <td class="py-2 px-4 border text-center instrument-col-actions">
+                                                <a href="#" onclick="openFormModal('instrument_inventory_form.php?record_id=<?php echo $record['id']; ?>'); return false;" class="text-blue-600 hover:underline mr-2">Edit</a>
+                                                <form method="POST" action="" class="inline">
+                                                    <input type="hidden" name="record_id" value="<?php echo $record['id']; ?>">
+                                                    <input type="hidden" name="category_id" value="2">
+                                                    <button type="submit" name="delete_record" class="text-red-600 hover:underline" onclick="return confirm('Are you sure you want to delete this record?')">Delete</button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    <?php endforeach; ?>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <?php if (empty($inventory_records)): ?>
@@ -934,7 +934,7 @@ if (!window.location.search.includes('t=') && window.location.search.indexOf('id
                         <p class="text-gray-600 mt-4">No uniform inventory records found.</p>
                     <?php endif; ?>
                     <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
-                </div>
+            </div>
             <?php elseif ($category_id == 4): ?>
                 <div class="content-container">
                     <div class="table-scroll-wrapper">
@@ -990,7 +990,7 @@ if (!window.location.search.includes('t=') && window.location.search.indexOf('id
                         <p class="text-gray-600 mt-4">No music library records found.</p>
                     <?php endif; ?>
                     <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
-                </div>
+            </div>
             <?php elseif ($category_id == 5): ?>
                 <p class="text-gray-600">This section is under development. Check back soon for updates!</p>
                 <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
@@ -1030,11 +1030,11 @@ if (!window.location.search.includes('t=') && window.location.search.indexOf('id
                     <?php endif; ?>
                     <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
                 </div>
-<?php else: ?>
-    error_log("category.php: Debug - Falling back to else clause for category_id: $category_id");
-    <p class="text-gray-600">This section is under development. Check back soon for updates!</p>
-    <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
-<?php endif; ?>
+            <?php else: ?>
+                <?php error_log("category.php: Debug - Falling back to else clause for category_id: $category_id"); ?></p>
+                <p class="text-gray-600">This section is under development. Check back soon for updates!</p>
+                <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
+            <?php endif; ?>
         </div>
     </div>
 </div>
@@ -1103,7 +1103,7 @@ function closeFormModal() {
         }
     } catch (error) {
         console.error('Error in closeFormModal:', error.message, error.stack);
-    }
+    
 }
 
 function toggleEditDeleteButtons() {
