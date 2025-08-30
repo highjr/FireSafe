@@ -360,7 +360,7 @@ if ($category_id == 8) {
 
 if ($category_id == 14) {
     error_log("category.php: Debug - Fetching data for category_id: 14");
-    $users_records = [];
+$users_records = []; // Local scope, will be passed to elseif
     $users_stmt = $mysqli->prepare("SELECT id, email, role FROM users ORDER BY id");
     if ($users_stmt === false) {
         error_log("category.php: Failed to prepare users query for ID 14: " . $mysqli->error);
@@ -368,22 +368,20 @@ if ($category_id == 14) {
         if (!$users_stmt->execute()) {
             error_log("category.php: Failed to execute users query for ID 14: " . $users_stmt->error);
         } else {
-            $users_result = $users_stmt->get_result() ?: $users_stmt->store_result();
+            $users_result = $users_stmt->store_result();
             if ($users_result === false) {
-                error_log("category.php: Failed to get result for users query: " . $mysqli->error);
+                error_log("category.php: Failed to store result for users query: " . $mysqli->error);
             } else {
-                if ($users_result instanceof mysqli_result && $users_result->num_rows > 0) {
-                    while ($row = $users_result->fetch_assoc()) {
-                        $users_records[] = $row;
-                    }
+                if ($users_result->num_rows > 0) {
+                    $users_records = $users_result->fetch_all(MYSQLI_ASSOC) ?: [];
                 }
+                $users_stmt->free_result();
                 $users_stmt->close();
                 error_log("category.php: Fetched users_records for ID 14, rows: " . count($users_records));
             }
         }
     }
 }
-
 
 // $cache_buster = time();
 // $cache_buster = ''; // Temporarily disable to test
@@ -429,15 +427,13 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
 
 const urlParams = new URLSearchParams(window.location.search);
 if (!urlParams.has('t')) {
-    const baseParams = new URLSearchParams();
-    if (!urlParams.has('id')) {
-        baseParams.set('id', '<?php echo $category_id; ?>');
-    } else {
-        baseParams.append('id', urlParams.get('id')); // Preserve existing id
+    const newParams = new URLSearchParams();
+    newParams.set('id', urlParams.get('id') || '<?php echo $category_id; ?>');
+    newParams.set('t', '<?php echo $cache_buster; ?>');
+    const newUrl = window.location.pathname + '?' + newParams.toString().replace(/id=[^&]*&id=/, 'id=');
+    if (newUrl !== window.location.href) {
+        window.location.href = newUrl;
     }
-    baseParams.set('t', '<?php echo $cache_buster; ?>');
-    const newUrl = window.location.pathname + '?' + baseParams.toString();
-    window.location.href = newUrl;
 }
 </script>
 
@@ -770,36 +766,17 @@ if (!urlParams.has('t')) {
             <tbody>
                 <?php
                 error_log("category.php: Debug - Entering elseif block for category_id: $category_id");
-                $users_stmt = $mysqli->prepare("SELECT id, email, role FROM users ORDER BY id");
-                if ($users_stmt === false) {
-                    error_log("category.php: Failed to prepare users query for ID 14: " . $mysqli->error);
-                    echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>Error preparing query: " . htmlspecialchars($mysqli->error) . "</td></tr>";
+                $users_records = isset($users_records) ? $users_records : [];
+                if (empty($users_records)) {
+                    echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>No users found or data fetch failed</td></tr>";
                 } else {
-                    if (!$users_stmt->execute()) {
-                        error_log("category.php: Failed to execute users query for ID 14: " . $users_stmt->error);
-                        echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>Execution error: " . htmlspecialchars($users_stmt->error) . "</td></tr>";
-                    } else {
-                        $users_result = @$mysqli->get_result(); // Suppress warnings for debugging
-                        if ($users_result === false) {
-                            error_log("category.php: Failed to get result for users query: " . $mysqli->error);
-                            echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>Result error: " . htmlspecialchars($mysqli->error) . "</td></tr>";
-                        } else {
-                            error_log("category.php: User query executed for ID 14, rows: " . ($users_result ? $users_result->num_rows : 'N/A'));
-                            if ($users_result && $users_result->num_rows > 0) {
-                                while ($user = $users_result->fetch_assoc()) {
-                                    echo "<tr>";
-                                    echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['id']) . "</td>";
-                                    echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['email']) . "</td>";
-                                    echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['role']) . "</td>";
-                                    echo "</tr>";
-                                }
-                            } else {
-                                error_log("category.php: No users found for ID 14");
-                                echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>No users found</td></tr>";
-                            }
-                        }
+                    foreach ($users_records as $user) {
+                        echo "<tr>";
+                        echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['id']) . "</td>";
+                        echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['email']) . "</td>";
+                        echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['role']) . "</td>";
+                        echo "</tr>";
                     }
-                    if ($users_stmt) $users_stmt->close();
                 }
                 ?>
             </tbody>
