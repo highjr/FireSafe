@@ -365,15 +365,22 @@ if ($category_id == 14) {
     if ($users_stmt === false) {
         error_log("category.php: Failed to prepare users query for ID 14: " . $mysqli->error);
     } else {
-        $users_stmt->execute();
-        $users_result = $mysqli->get_result();
-        if ($users_result && $users_result->num_rows > 0) {
-            while ($row = $users_result->fetch_assoc()) {
-                $users_records[] = $row;
+        if (!$users_stmt->execute()) {
+            error_log("category.php: Failed to execute users query for ID 14: " . $users_stmt->error);
+        } else {
+            $users_result = $users_stmt->get_result() ?: $users_stmt->store_result();
+            if ($users_result === false) {
+                error_log("category.php: Failed to get result for users query: " . $mysqli->error);
+            } else {
+                if ($users_result instanceof mysqli_result && $users_result->num_rows > 0) {
+                    while ($row = $users_result->fetch_assoc()) {
+                        $users_records[] = $row;
+                    }
+                }
+                $users_stmt->close();
+                error_log("category.php: Fetched users_records for ID 14, rows: " . count($users_records));
             }
         }
-        $users_stmt->close();
-        error_log("category.php: Fetched users_records for ID 14, rows: " . count($users_records));
     }
 }
 
@@ -422,12 +429,14 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
 
 const urlParams = new URLSearchParams(window.location.search);
 if (!urlParams.has('t')) {
-    let newParams = urlParams;
+    const baseParams = new URLSearchParams();
     if (!urlParams.has('id')) {
-        newParams.set('id', '<?php echo $category_id; ?>');
+        baseParams.set('id', '<?php echo $category_id; ?>');
+    } else {
+        baseParams.append('id', urlParams.get('id')); // Preserve existing id
     }
-    newParams.set('t', '<?php echo $cache_buster; ?>');
-    const newUrl = window.location.pathname + '?' + newParams.toString();
+    baseParams.set('t', '<?php echo $cache_buster; ?>');
+    const newUrl = window.location.pathname + '?' + baseParams.toString();
     window.location.href = newUrl;
 }
 </script>
