@@ -420,10 +420,15 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
     initializeEventListeners();
 }
 
-if (!window.location.search.includes('t=') && window.location.search.indexOf('id=') === -1) {
-    window.location.href = window.location.pathname + '?id=<?php echo $category_id; ?>&t=<?php echo $cache_buster; ?>';
-} else if (window.location.search.includes('id=') && !window.location.search.includes('t=')) {
-    window.location.href = window.location.pathname + window.location.search + '&t=<?php echo $cache_buster; ?>';
+const urlParams = new URLSearchParams(window.location.search);
+if (!urlParams.has('t')) {
+    let newParams = urlParams;
+    if (!urlParams.has('id')) {
+        newParams.set('id', '<?php echo $category_id; ?>');
+    }
+    newParams.set('t', '<?php echo $cache_buster; ?>');
+    const newUrl = window.location.pathname + '?' + newParams.toString();
+    window.location.href = newUrl;
 }
 </script>
 
@@ -743,7 +748,6 @@ if (!window.location.search.includes('t=') && window.location.search.indexOf('id
     </div>
 
 <?php elseif ($category_id == 14): ?>
-    <?php error_log("category.php: Debug - Entering where it says category_id == 14") ?>
     <div class="content-container">
         <h2 class="text-2xl font-bold mb-4">User Management</h2>
         <table class="min-w-full bg-white border">
@@ -757,16 +761,36 @@ if (!window.location.search.includes('t=') && window.location.search.indexOf('id
             <tbody>
                 <?php
                 error_log("category.php: Debug - Entering elseif block for category_id: $category_id");
-                if (empty($users_records)) {
-                    echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>No users found</td></tr>";
+                $users_stmt = $mysqli->prepare("SELECT id, email, role FROM users ORDER BY id");
+                if ($users_stmt === false) {
+                    error_log("category.php: Failed to prepare users query for ID 14: " . $mysqli->error);
+                    echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>Error preparing query: " . htmlspecialchars($mysqli->error) . "</td></tr>";
                 } else {
-                    foreach ($users_records as $user) {
-                        echo "<tr>";
-                        echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['id']) . "</td>";
-                        echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['email']) . "</td>";
-                        echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['role']) . "</td>";
-                        echo "</tr>";
+                    if (!$users_stmt->execute()) {
+                        error_log("category.php: Failed to execute users query for ID 14: " . $users_stmt->error);
+                        echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>Execution error: " . htmlspecialchars($users_stmt->error) . "</td></tr>";
+                    } else {
+                        $users_result = @$mysqli->get_result(); // Suppress warnings for debugging
+                        if ($users_result === false) {
+                            error_log("category.php: Failed to get result for users query: " . $mysqli->error);
+                            echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>Result error: " . htmlspecialchars($mysqli->error) . "</td></tr>";
+                        } else {
+                            error_log("category.php: User query executed for ID 14, rows: " . ($users_result ? $users_result->num_rows : 'N/A'));
+                            if ($users_result && $users_result->num_rows > 0) {
+                                while ($user = $users_result->fetch_assoc()) {
+                                    echo "<tr>";
+                                    echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['id']) . "</td>";
+                                    echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['email']) . "</td>";
+                                    echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['role']) . "</td>";
+                                    echo "</tr>";
+                                }
+                            } else {
+                                error_log("category.php: No users found for ID 14");
+                                echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>No users found</td></tr>";
+                            }
+                        }
                     }
+                    if ($users_stmt) $users_stmt->close();
                 }
                 ?>
             </tbody>
