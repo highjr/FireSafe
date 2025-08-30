@@ -360,7 +360,7 @@ if ($category_id == 8) {
 
 if ($category_id == 14) {
     error_log("category.php: Debug - Fetching data for category_id: 14");
-$users_records = []; // Local scope, will be passed to elseif
+    $users_records = []; // Local scope
     $users_stmt = $mysqli->prepare("SELECT id, email, role FROM users ORDER BY id");
     if ($users_stmt === false) {
         error_log("category.php: Failed to prepare users query for ID 14: " . $mysqli->error);
@@ -381,6 +381,8 @@ $users_records = []; // Local scope, will be passed to elseif
             }
         }
     }
+    // Ensure availability for elseif block
+    $GLOBALS['users_records'] = $users_records;
 }
 
 // $cache_buster = time();
@@ -428,9 +430,10 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
 const urlParams = new URLSearchParams(window.location.search);
 if (!urlParams.has('t')) {
     const newParams = new URLSearchParams();
-    newParams.set('id', urlParams.get('id') || '<?php echo $category_id; ?>');
+    const existingId = urlParams.get('id');
+    newParams.set('id', existingId ? existingId.split('&')[0] : '<?php echo $category_id; ?>'); // Take first id
     newParams.set('t', '<?php echo $cache_buster; ?>');
-    const newUrl = window.location.pathname + '?' + newParams.toString().replace(/id=[^&]*&id=/, 'id=');
+    const newUrl = window.location.pathname + '?' + newParams.toString();
     if (newUrl !== window.location.href) {
         window.location.href = newUrl;
     }
@@ -752,38 +755,6 @@ if (!urlParams.has('t')) {
         <?php endif; ?>
     </div>
 
-<?php elseif ($category_id == 14): ?>
-    <div class="content-container">
-        <h2 class="text-2xl font-bold mb-4">User Management</h2>
-        <table class="min-w-full bg-white border">
-            <thead>
-                <tr>
-                    <th class="py-2 px-4 border text-center">ID</th>
-                    <th class="py-2 px-4 border text-center">Email</th>
-                    <th class="py-2 px-4 border text-center">Role</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                error_log("category.php: Debug - Entering elseif block for category_id: $category_id");
-                $users_records = isset($users_records) ? $users_records : [];
-                if (empty($users_records)) {
-                    echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>No users found or data fetch failed</td></tr>";
-                } else {
-                    foreach ($users_records as $user) {
-                        echo "<tr>";
-                        echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['id']) . "</td>";
-                        echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['email']) . "</td>";
-                        echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['role']) . "</td>";
-                        echo "</tr>";
-                    }
-                }
-                ?>
-            </tbody>
-        </table>
-        <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
-    </div>
-
     <?php else: ?>
         <?php 
         error_log("category.php: Skipped rendering fixed-bar for category_id: $category_id (already rendered) at " . microtime(true));
@@ -1049,6 +1020,38 @@ if (!urlParams.has('t')) {
                     <?php endif; ?>
                     <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
                 </div>
+            <?php elseif ($category_id == 14): ?>
+                <div class="content-container">
+                    <h2 class="text-2xl font-bold mb-4">User Management</h2>
+                    <table class="min-w-full bg-white border">
+                        <thead>
+                            <tr>
+                                <th class="py-2 px-4 border text-center">ID</th>
+                                <th class="py-2 px-4 border text-center">Email</th>
+                                <th class="py-2 px-4 border text-center">Role</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                            error_log("category.php: Debug - Entering elseif block for category_id: $category_id");
+                            $users_records = $GLOBALS['users_records'] ?? [];
+                            if (empty($users_records)) {
+                                echo "<tr><td colspan='3' class='py-2 px-4 border text-center'>No users found or data fetch failed</td></tr>";
+                            } else {
+                                foreach ($users_records as $user) {
+                                    echo "<tr>";
+                                    echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['id']) . "</td>";
+                                    echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['email']) . "</td>";
+                                    echo "<td class='py-2 px-4 border text-center'>" . htmlspecialchars($user['role']) . "</td>";
+                                    echo "</tr>";
+                                }
+                            }
+                            ?>
+                        </tbody>
+                    </table>
+                    <a href="home.php?t=<?php echo $cache_buster; ?>" class="mt-4 inline-block text-blue-600 hover:underline">Back to Home</a>
+                </div>
+
             <?php else: ?>
                 <?php error_log("category.php: Debug - Falling back to else clause for category_id: $category_id"); ?></p>
                 <p class="text-gray-600">This section is under development. Check back soon for updates!</p>
