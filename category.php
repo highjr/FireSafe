@@ -694,36 +694,37 @@ if (!window.location.search.includes('t=') && window.location.search.indexOf('id
         $_SESSION['fixed_bar_rendered_' . $request_id] = true;
         error_log("category.php: Rendering fixed-bar for category_id: $category_id at " . microtime(true));
     ?>
-<div class="fixed-bar">
-    <div class="flex items-center">
-        <div class="sidebar-offset flex items-center">
-            <h2 class="text-xl font-bold text-gray-800 text-left"><?php echo htmlspecialchars($category_name); ?></h2>
-            <div class="ml-4 flex items-center">
-                <?php if ($category_id == 2): ?>
-                    <button onclick="openFormModal('instrument_inventory_form.php')" class="inline-block bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 mr-2">Add New Record</button>
-                <?php elseif ($category_id == 3): ?>
-                    <button onclick="openFormModal('uniform_inventory_form.php')" class="inline-block bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 mr-2">Add New Record</button>
-                <?php elseif ($category_id == 4): ?>
-                    <button onclick="openFormModal('music_library_form.php')" class="inline-block bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 mr-2">Add New Record</button>
-                <?php endif; ?>
-                <?php if ($category_id != 8): ?>
-                    <button onclick="openImportModal(<?php echo $category_id; ?>)" class="inline-block bg-green-600 text-white p-2 rounded-md hover:bg-green-700 mr-2">Import</button>
-                    <input type="text" id="tableSearch" placeholder="Search table..." class="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
-                <?php endif; ?>
-            </div>
-        </div>
-    </div>
-    <?php if ($category_id != 8): ?>
+    <div class="fixed-bar">
         <div class="flex items-center">
-            <div id="editDeleteButtons" class="flex items-center">
-                <button id="editButton" class="edit-button p-2 mr-2" onclick="editSelected()">Edit Selected</button>
-                <button id="deleteButton" class="delete-button p-2" onclick="deleteSelected()">Delete Selected</button>
+            <div class="sidebar-offset flex items-center">
+                <h2 class="text-xl font-bold text-gray-800 text-left"><?php echo htmlspecialchars($category_name); ?></h2>
+                <div class="ml-4 flex items-center">
+                    <?php if ($category_id == 2): ?>
+                        <button onclick="openFormModal('instrument_inventory_form.php')" class="inline-block bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 mr-2">Add New Record</button>
+                    <?php elseif ($category_id == 3): ?>
+                        <button onclick="openFormModal('uniform_inventory_form.php')" class="inline-block bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 mr-2">Add New Record</button>
+                    <?php elseif ($category_id == 4): ?>
+                        <button onclick="openFormModal('music_library_form.php')" class="inline-block bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 mr-2">Add New Record</button>
+                    <?php endif; ?>
+                    <?php if ($category_id != 8): ?>
+                        <button onclick="openImportModal(<?php echo $category_id; ?>)" class="inline-block bg-green-600 text-white p-2 rounded-md hover:bg-green-700 mr-2">Import</button>
+                        <input type="text" id="tableSearch" placeholder="Search table..." class="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <?php endif; ?>
+                </div>
             </div>
         </div>
-    <?php endif; ?>
-</div>
+        <?php if ($category_id != 8): ?>
+            <div class="flex items-center">
+                <div id="editDeleteButtons" class="flex items-center">
+                    <button id="editButton" class="edit-button p-2 mr-2" onclick="editSelected()">Edit Selected</button>
+                    <button id="deleteButton" class="delete-button p-2" onclick="deleteSelected()">Delete Selected</button>
+                </div>
+            </div>
+        <?php endif; ?>
+    </div>
 
 <?php elseif ($category_id == 14): ?>
+    <?php error_log("category.php: Debug - Entering where it says category_id == 14") ?>
     <div class="content-container">
         <h2 class="text-2xl font-bold mb-4">User Management</h2>
         <table class="min-w-full bg-white border">

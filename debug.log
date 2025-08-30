@@ -1,611 +1,361 @@
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"346e8a928ea0f721c6ea4c454e1935e5","page_rendered_1114d72b89847171c73f7d063e463ae9":true,"page_rendered_723a296bf21819a712a6cdc9015b90d7":true}
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"1114d72b89847171c73f7d063e463ae9";page_rendered_1114d72b89847171c73f7d063e463ae9|b:1;page_rendered_723a296bf21819a712a6cdc9015b90d7|b:1;
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 7 - Config included at 1756419221.06
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Sidebar rendered for request_id: 346e8a928ea0f721c6ea4c454e1935e5
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419221.0625
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"95fa2663e3dcf3e65052f5de2c79f695","page_rendered_346e8a928ea0f721c6ea4c454e1935e5":true}
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"346e8a928ea0f721c6ea4c454e1935e5";page_rendered_346e8a928ea0f721c6ea4c454e1935e5|b:1;
-[28-Aug-2025 15:13:41 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 7 - Config included at 1756419221.3331
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:13:41 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Sidebar rendered for request_id: 95fa2663e3dcf3e65052f5de2c79f695
-[28-Aug-2025 15:13:41 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419221.3347
-[28-Aug-2025 15:13:42 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:13:42 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"e4a4a2e419a3ec99d3851befb6ad7d32","page_rendered_95fa2663e3dcf3e65052f5de2c79f695":true}
-[28-Aug-2025 15:13:42 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:13:42 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:13:42 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"95fa2663e3dcf3e65052f5de2c79f695";page_rendered_95fa2663e3dcf3e65052f5de2c79f695|b:1;
-[28-Aug-2025 15:13:42 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:13:42 America/Los_Angeles] category.php: Step 7 - Config included at 1756419223.0016
-[28-Aug-2025 15:13:42 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:13:42 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:13:42 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:13:42 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:13:42 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:13:42 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:13:42 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:13:42 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:13:42 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:13:42 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:13:42 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:13:42 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:13:42 America/Los_Angeles] category.php: Sidebar rendered for request_id: e4a4a2e419a3ec99d3851befb6ad7d32
-[28-Aug-2025 15:13:42 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419223.004
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"3a0a78cc2b523925d9e119f468c1e6ca","page_rendered_e4a4a2e419a3ec99d3851befb6ad7d32":true}
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"e4a4a2e419a3ec99d3851befb6ad7d32";page_rendered_e4a4a2e419a3ec99d3851befb6ad7d32|b:1;
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 7 - Config included at 1756419225.8358
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 7
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":7,"name":"Fundraising"}
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Sidebar rendered for request_id: 3a0a78cc2b523925d9e119f468c1e6ca
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419225.8378
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"1817f51731087fa7121a62623665bba3","page_rendered_3a0a78cc2b523925d9e119f468c1e6ca":true}
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"3a0a78cc2b523925d9e119f468c1e6ca";page_rendered_3a0a78cc2b523925d9e119f468c1e6ca|b:1;
-[28-Aug-2025 15:13:45 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 7 - Config included at 1756419225.963
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:13:45 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Sidebar rendered for request_id: 1817f51731087fa7121a62623665bba3
-[28-Aug-2025 15:13:45 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419225.9651
-[28-Aug-2025 15:13:47 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:13:47 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"04876ac95f66f03f964591a8a07dd0e3","page_rendered_1817f51731087fa7121a62623665bba3":true}
-[28-Aug-2025 15:13:47 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:13:47 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:13:47 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"1817f51731087fa7121a62623665bba3";page_rendered_1817f51731087fa7121a62623665bba3|b:1;
-[28-Aug-2025 15:13:47 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:13:47 America/Los_Angeles] category.php: Step 7 - Config included at 1756419227.1801
-[28-Aug-2025 15:13:47 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:13:47 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 6
-[28-Aug-2025 15:13:47 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":6,"name":"Trip Itineraries"}
-[28-Aug-2025 15:13:47 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:13:47 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:13:47 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:13:47 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:13:47 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:13:47 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:13:47 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:13:47 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:13:47 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:13:47 America/Los_Angeles] category.php: Sidebar rendered for request_id: 04876ac95f66f03f964591a8a07dd0e3
-[28-Aug-2025 15:13:47 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419227.182
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"fb97341e54a4d665068d4445f8f850d9","page_rendered_04876ac95f66f03f964591a8a07dd0e3":true}
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"04876ac95f66f03f964591a8a07dd0e3";page_rendered_04876ac95f66f03f964591a8a07dd0e3|b:1;
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 7 - Config included at 1756419228.0476
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 6
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":6,"name":"Trip Itineraries"}
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Sidebar rendered for request_id: fb97341e54a4d665068d4445f8f850d9
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419228.0491
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"ac17a95399f136dcea2c9f81d5011e0f","page_rendered_fb97341e54a4d665068d4445f8f850d9":true}
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"fb97341e54a4d665068d4445f8f850d9";page_rendered_fb97341e54a4d665068d4445f8f850d9|b:1;
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 7 - Config included at 1756419228.1451
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 6
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":6,"name":"Trip Itineraries"}
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Sidebar rendered for request_id: ac17a95399f136dcea2c9f81d5011e0f
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419228.1468
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"92528b89dfff3c9b3763ef3870aeb96a","page_rendered_ac17a95399f136dcea2c9f81d5011e0f":true}
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"ac17a95399f136dcea2c9f81d5011e0f";page_rendered_ac17a95399f136dcea2c9f81d5011e0f|b:1;
-[28-Aug-2025 15:13:48 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 7 - Config included at 1756419228.3376
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 6
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":6,"name":"Trip Itineraries"}
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:13:48 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Sidebar rendered for request_id: 92528b89dfff3c9b3763ef3870aeb96a
-[28-Aug-2025 15:13:48 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419228.3392
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"d1275896b20b69b451f6842ba4c10227","page_rendered_92528b89dfff3c9b3763ef3870aeb96a":true}
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"92528b89dfff3c9b3763ef3870aeb96a";page_rendered_92528b89dfff3c9b3763ef3870aeb96a|b:1;
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 7 - Config included at 1756419229.2019
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 9
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":9,"name":"Instrument Repairs"}
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Sidebar rendered for request_id: d1275896b20b69b451f6842ba4c10227
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419229.2035
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"613cf2528f2e2fd162c1dd2f63ca7b87","page_rendered_d1275896b20b69b451f6842ba4c10227":true}
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"d1275896b20b69b451f6842ba4c10227";page_rendered_d1275896b20b69b451f6842ba4c10227|b:1;
-[28-Aug-2025 15:13:49 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 7 - Config included at 1756419229.2711
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 6
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":6,"name":"Trip Itineraries"}
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:13:49 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Sidebar rendered for request_id: 613cf2528f2e2fd162c1dd2f63ca7b87
-[28-Aug-2025 15:13:49 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419229.2725
-[28-Aug-2025 15:14:59 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:14:59 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"339f6f06bafd162ff24cbf832c2e73f2","page_rendered_613cf2528f2e2fd162c1dd2f63ca7b87":true}
-[28-Aug-2025 15:14:59 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:14:59 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:14:59 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"613cf2528f2e2fd162c1dd2f63ca7b87";page_rendered_613cf2528f2e2fd162c1dd2f63ca7b87|b:1;
-[28-Aug-2025 15:14:59 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:14:59 America/Los_Angeles] category.php: Step 7 - Config included at 1756419299.37
-[28-Aug-2025 15:14:59 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:14:59 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 6
-[28-Aug-2025 15:14:59 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":6,"name":"Trip Itineraries"}
-[28-Aug-2025 15:14:59 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:14:59 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:14:59 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:14:59 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:14:59 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:14:59 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:14:59 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:14:59 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:14:59 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:14:59 America/Los_Angeles] category.php: Sidebar rendered for request_id: 339f6f06bafd162ff24cbf832c2e73f2
-[28-Aug-2025 15:14:59 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419299.3726
-[28-Aug-2025 15:15:00 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:15:00 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"fe9010c50b53a64683a1d3a0e6000f84","page_rendered_339f6f06bafd162ff24cbf832c2e73f2":true}
-[28-Aug-2025 15:15:00 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:15:00 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:15:00 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"339f6f06bafd162ff24cbf832c2e73f2";page_rendered_339f6f06bafd162ff24cbf832c2e73f2|b:1;
-[28-Aug-2025 15:15:00 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:15:00 America/Los_Angeles] category.php: Step 7 - Config included at 1756419300.8651
-[28-Aug-2025 15:15:00 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:15:00 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 7
-[28-Aug-2025 15:15:00 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":7,"name":"Fundraising"}
-[28-Aug-2025 15:15:00 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:15:00 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:15:00 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:15:00 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:15:00 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:15:00 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:15:00 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:15:00 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:15:00 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:15:00 America/Los_Angeles] category.php: Sidebar rendered for request_id: fe9010c50b53a64683a1d3a0e6000f84
-[28-Aug-2025 15:15:00 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419300.8667
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"315409b448e8040b37db36c6f2139a88","page_rendered_fe9010c50b53a64683a1d3a0e6000f84":true}
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"fe9010c50b53a64683a1d3a0e6000f84";page_rendered_fe9010c50b53a64683a1d3a0e6000f84|b:1;
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 7 - Config included at 1756419301.4417
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 6
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":6,"name":"Trip Itineraries"}
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Sidebar rendered for request_id: 315409b448e8040b37db36c6f2139a88
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419301.4433
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"12ee37d14b20afb833b1236cc3f29119","page_rendered_315409b448e8040b37db36c6f2139a88":true}
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"315409b448e8040b37db36c6f2139a88";page_rendered_315409b448e8040b37db36c6f2139a88|b:1;
-[28-Aug-2025 15:15:01 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 7 - Config included at 1756419301.9436
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 5
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":5,"name":"Inventory"}
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:15:01 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Sidebar rendered for request_id: 12ee37d14b20afb833b1236cc3f29119
-[28-Aug-2025 15:15:01 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419301.945
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"85f8efd6c1f37ecf07af2c3fa6141e8c","page_rendered_12ee37d14b20afb833b1236cc3f29119":true}
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"12ee37d14b20afb833b1236cc3f29119";page_rendered_12ee37d14b20afb833b1236cc3f29119|b:1;
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 7 - Config included at 1756419303.0121
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 2
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":2,"name":"Instrument Inventory"}
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Rendering fixed-bar for category_id: 2 at 1756419303.0146
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Session size after cleanup: 204
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Sidebar rendered for request_id: 85f8efd6c1f37ecf07af2c3fa6141e8c
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419303.0161
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"9a60ac0f38bd55974842c6de5075b82e","page_rendered_85f8efd6c1f37ecf07af2c3fa6141e8c":true}
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"85f8efd6c1f37ecf07af2c3fa6141e8c";page_rendered_85f8efd6c1f37ecf07af2c3fa6141e8c|b:1;
-[28-Aug-2025 15:15:03 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 7 - Config included at 1756419303.1584
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 2
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":2,"name":"Instrument Inventory"}
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Rendering fixed-bar for category_id: 2 at 1756419303.1628
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Session size after cleanup: 204
-[28-Aug-2025 15:15:03 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Sidebar rendered for request_id: 9a60ac0f38bd55974842c6de5075b82e
-[28-Aug-2025 15:15:03 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419303.1642
-[28-Aug-2025 15:15:21 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:15:21 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"170199cab3dfd17cc75d1c07e0c2a562","page_rendered_9a60ac0f38bd55974842c6de5075b82e":true}
-[28-Aug-2025 15:15:21 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:15:21 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:15:21 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"9a60ac0f38bd55974842c6de5075b82e";page_rendered_9a60ac0f38bd55974842c6de5075b82e|b:1;
-[28-Aug-2025 15:15:21 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:15:21 America/Los_Angeles] category.php: Step 7 - Config included at 1756419321.4696
-[28-Aug-2025 15:15:21 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:15:21 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:15:21 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:15:21 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:15:21 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:15:21 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:15:21 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:15:21 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:15:21 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:15:21 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:15:21 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:15:21 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:15:21 America/Los_Angeles] category.php: Sidebar rendered for request_id: 170199cab3dfd17cc75d1c07e0c2a562
-[28-Aug-2025 15:15:21 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419321.4714
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"e09fe35f14df83fdae5f2e865c783118","page_rendered_170199cab3dfd17cc75d1c07e0c2a562":true}
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"170199cab3dfd17cc75d1c07e0c2a562";page_rendered_170199cab3dfd17cc75d1c07e0c2a562|b:1;
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 7 - Config included at 1756419863.5433
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Sidebar rendered for request_id: e09fe35f14df83fdae5f2e865c783118
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419863.5457
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"f0db4a826dd115d1bae33d702eec9ff1","page_rendered_e09fe35f14df83fdae5f2e865c783118":true}
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"e09fe35f14df83fdae5f2e865c783118";page_rendered_e09fe35f14df83fdae5f2e865c783118|b:1;
-[28-Aug-2025 15:24:23 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 7 - Config included at 1756419863.8478
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:24:23 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Sidebar rendered for request_id: f0db4a826dd115d1bae33d702eec9ff1
-[28-Aug-2025 15:24:23 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419863.8496
-[28-Aug-2025 15:24:24 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:24:24 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"d2745bbd5338eecce4715e82c9405cd6","page_rendered_f0db4a826dd115d1bae33d702eec9ff1":true}
-[28-Aug-2025 15:24:24 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:24:24 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:24:24 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"f0db4a826dd115d1bae33d702eec9ff1";page_rendered_f0db4a826dd115d1bae33d702eec9ff1|b:1;
-[28-Aug-2025 15:24:24 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:24:24 America/Los_Angeles] category.php: Step 7 - Config included at 1756419864.9459
-[28-Aug-2025 15:24:24 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:24:24 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:24:24 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:24:24 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:24:24 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:24:24 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:24:24 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:24:24 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:24:24 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:24:24 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:24:24 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:24:24 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:24:24 America/Los_Angeles] category.php: Sidebar rendered for request_id: d2745bbd5338eecce4715e82c9405cd6
-[28-Aug-2025 15:24:24 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419864.9475
-[28-Aug-2025 15:24:25 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:24:25 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"1de96dec2885c3e220e6d2e6738c7088","page_rendered_d2745bbd5338eecce4715e82c9405cd6":true}
-[28-Aug-2025 15:24:25 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:24:25 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:24:25 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"d2745bbd5338eecce4715e82c9405cd6";page_rendered_d2745bbd5338eecce4715e82c9405cd6|b:1;
-[28-Aug-2025 15:24:25 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:24:25 America/Los_Angeles] category.php: Step 7 - Config included at 1756419865.9995
-[28-Aug-2025 15:24:25 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:24:25 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:24:25 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:24:25 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:24:25 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:24:25 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:24:25 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:24:25 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:24:25 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:24:25 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:24:25 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:24:25 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:24:25 America/Los_Angeles] category.php: Sidebar rendered for request_id: 1de96dec2885c3e220e6d2e6738c7088
-[28-Aug-2025 15:24:25 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419866.0013
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"786fd4338265828f31a910bd8dc73043","page_rendered_1de96dec2885c3e220e6d2e6738c7088":true}
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"1de96dec2885c3e220e6d2e6738c7088";page_rendered_1de96dec2885c3e220e6d2e6738c7088|b:1;
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 7 - Config included at 1756419866.5468
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Sidebar rendered for request_id: 786fd4338265828f31a910bd8dc73043
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419866.5493
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"f38a8c0e2ae8cdd532f5225a31cbd7ab","page_rendered_786fd4338265828f31a910bd8dc73043":true}
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"786fd4338265828f31a910bd8dc73043";page_rendered_786fd4338265828f31a910bd8dc73043|b:1;
-[28-Aug-2025 15:24:26 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 7 - Config included at 1756419866.9302
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:24:26 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Sidebar rendered for request_id: f38a8c0e2ae8cdd532f5225a31cbd7ab
-[28-Aug-2025 15:24:26 America/Los_Angeles] category.php: Step 36 - Script completed at 1756419866.9328
-[28-Aug-2025 15:27:13 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:27:13 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"7f64952a91a8e2d884086c132da2bcbd","page_rendered_f38a8c0e2ae8cdd532f5225a31cbd7ab":true}
-[28-Aug-2025 15:27:13 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:27:13 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:27:13 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"f38a8c0e2ae8cdd532f5225a31cbd7ab";page_rendered_f38a8c0e2ae8cdd532f5225a31cbd7ab|b:1;
-[28-Aug-2025 15:27:13 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:27:13 America/Los_Angeles] category.php: Step 7 - Config included at 1756420033.4995
-[28-Aug-2025 15:27:13 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:27:13 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:27:13 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:27:13 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:27:13 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:27:13 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:27:13 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:27:13 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:27:13 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:27:13 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:27:13 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:27:13 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:27:13 America/Los_Angeles] category.php: Sidebar rendered for request_id: 7f64952a91a8e2d884086c132da2bcbd
-[28-Aug-2025 15:27:13 America/Los_Angeles] category.php: Step 36 - Script completed at 1756420033.5017
-[28-Aug-2025 15:30:46 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:30:46 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"fa5398519fe982aaaff6283394fb21a2","page_rendered_7f64952a91a8e2d884086c132da2bcbd":true}
-[28-Aug-2025 15:30:46 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:30:46 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:30:46 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"7f64952a91a8e2d884086c132da2bcbd";page_rendered_7f64952a91a8e2d884086c132da2bcbd|b:1;
-[28-Aug-2025 15:30:46 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:30:46 America/Los_Angeles] category.php: Step 7 - Config included at 1756420246.0137
-[28-Aug-2025 15:30:46 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:30:46 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:30:46 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:30:46 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:30:46 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:30:46 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:30:46 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:30:46 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:30:46 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:30:46 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:30:46 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:30:46 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:30:46 America/Los_Angeles] category.php: Sidebar rendered for request_id: fa5398519fe982aaaff6283394fb21a2
-[28-Aug-2025 15:30:46 America/Los_Angeles] category.php: Step 36 - Script completed at 1756420246.0163
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"5a1bd251fa4afbde9ce159b22554f605","page_rendered_fa5398519fe982aaaff6283394fb21a2":true}
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"fa5398519fe982aaaff6283394fb21a2";page_rendered_fa5398519fe982aaaff6283394fb21a2|b:1;
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 7 - Config included at 1756420248.1625
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Sidebar rendered for request_id: 5a1bd251fa4afbde9ce159b22554f605
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 36 - Script completed at 1756420248.1641
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"c59c2fc08b942bc12ba51f9b770f593b","page_rendered_5a1bd251fa4afbde9ce159b22554f605":true}
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"5a1bd251fa4afbde9ce159b22554f605";page_rendered_5a1bd251fa4afbde9ce159b22554f605|b:1;
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 7 - Config included at 1756420248.5382
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Sidebar rendered for request_id: c59c2fc08b942bc12ba51f9b770f593b
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 36 - Script completed at 1756420248.5416
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session ID: 872e6e58aca84abc87a32efee0874281
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"079f4a8702cdd72084e6412b19e39e31","page_rendered_c59c2fc08b942bc12ba51f9b770f593b":true}
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session save path: /tmp
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"872e6e58aca84abc87a32efee0874281"}
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"c59c2fc08b942bc12ba51f9b770f593b";page_rendered_c59c2fc08b942bc12ba51f9b770f593b|b:1;
-[28-Aug-2025 15:30:48 America/Los_Angeles] config.php: Logging initialized
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 7 - Config included at 1756420248.6058
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Cleaned up session, current size: 171
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Starting script
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Config loaded successfully
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: User ID set to: 1
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
-[28-Aug-2025 15:30:48 America/Los_Angeles] sidebar.php: Script completed
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Sidebar rendered for request_id: 079f4a8702cdd72084e6412b19e39e31
-[28-Aug-2025 15:30:48 America/Los_Angeles] category.php: Step 36 - Script completed at 1756420248.6075
+[29-Aug-2025 18:08:31 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:31 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"e1bd46e859bf0d3fe0bfb6c9fd48f927","page_rendered_fa9fb5ce050edf8bba7d9090ffbd31ea":true}
+[29-Aug-2025 18:08:31 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:31 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:31 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"fa9fb5ce050edf8bba7d9090ffbd31ea";page_rendered_fa9fb5ce050edf8bba7d9090ffbd31ea|b:1;
+[29-Aug-2025 18:08:31 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:31 America/Los_Angeles] category.php: Step 7 - Config included at 1756516111.7536
+[29-Aug-2025 18:08:31 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:31 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
+[29-Aug-2025 18:08:31 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
+[29-Aug-2025 18:08:31 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:31 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:31 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:31 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:31 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:31 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:31 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:31 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:31 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:31 America/Los_Angeles] category.php: Sidebar rendered for request_id: e1bd46e859bf0d3fe0bfb6c9fd48f927
+[29-Aug-2025 18:08:31 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 14
+[29-Aug-2025 18:08:31 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516111.7591
+[29-Aug-2025 18:08:32 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:32 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"7965ac352ce70d12046238bc9d5718a0","page_rendered_e1bd46e859bf0d3fe0bfb6c9fd48f927":true}
+[29-Aug-2025 18:08:32 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:32 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:32 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"e1bd46e859bf0d3fe0bfb6c9fd48f927";page_rendered_e1bd46e859bf0d3fe0bfb6c9fd48f927|b:1;
+[29-Aug-2025 18:08:32 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:32 America/Los_Angeles] category.php: Step 7 - Config included at 1756516112.3001
+[29-Aug-2025 18:08:32 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:32 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
+[29-Aug-2025 18:08:32 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
+[29-Aug-2025 18:08:32 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:32 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:32 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:32 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:32 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:32 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:32 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:32 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:32 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:32 America/Los_Angeles] category.php: Sidebar rendered for request_id: 7965ac352ce70d12046238bc9d5718a0
+[29-Aug-2025 18:08:32 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 14
+[29-Aug-2025 18:08:32 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516112.3016
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"b8e5ddaf4da7528023e24a9d9bf5645e","page_rendered_7965ac352ce70d12046238bc9d5718a0":true}
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"7965ac352ce70d12046238bc9d5718a0";page_rendered_7965ac352ce70d12046238bc9d5718a0|b:1;
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 7 - Config included at 1756516115.2529
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 5
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":5,"name":"Inventory"}
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Sidebar rendered for request_id: b8e5ddaf4da7528023e24a9d9bf5645e
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516115.2547
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"42e699644deca935b9340c1ef3d5ea92","page_rendered_b8e5ddaf4da7528023e24a9d9bf5645e":true}
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"b8e5ddaf4da7528023e24a9d9bf5645e";page_rendered_b8e5ddaf4da7528023e24a9d9bf5645e|b:1;
+[29-Aug-2025 18:08:35 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 7 - Config included at 1756516115.8868
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 2
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":2,"name":"Instrument Inventory"}
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Rendering fixed-bar for category_id: 2 at 1756516115.8918
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Session size after cleanup: 204
+[29-Aug-2025 18:08:35 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Sidebar rendered for request_id: 42e699644deca935b9340c1ef3d5ea92
+[29-Aug-2025 18:08:35 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516115.8933
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"b4749335c731a45665f9886b3916686c","page_rendered_42e699644deca935b9340c1ef3d5ea92":true}
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"42e699644deca935b9340c1ef3d5ea92";page_rendered_42e699644deca935b9340c1ef3d5ea92|b:1;
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 7 - Config included at 1756516116.014
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 2
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":2,"name":"Instrument Inventory"}
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Rendering fixed-bar for category_id: 2 at 1756516116.0194
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Session size after cleanup: 204
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Sidebar rendered for request_id: b4749335c731a45665f9886b3916686c
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516116.0208
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"a421a49246eedef8216f58ed3a977e28","page_rendered_b4749335c731a45665f9886b3916686c":true}
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"b4749335c731a45665f9886b3916686c";page_rendered_b4749335c731a45665f9886b3916686c|b:1;
+[29-Aug-2025 18:08:36 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 7 - Config included at 1756516116.9817
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 3
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":3,"name":"Uniform Inventory"}
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Rendering fixed-bar for category_id: 3 at 1756516116.9881
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Session size after cleanup: 204
+[29-Aug-2025 18:08:36 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Sidebar rendered for request_id: a421a49246eedef8216f58ed3a977e28
+[29-Aug-2025 18:08:36 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516116.9904
+[29-Aug-2025 18:08:37 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:37 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"9a97994172588f39917c55ba47b5331d","page_rendered_a421a49246eedef8216f58ed3a977e28":true}
+[29-Aug-2025 18:08:37 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:37 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:37 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"a421a49246eedef8216f58ed3a977e28";page_rendered_a421a49246eedef8216f58ed3a977e28|b:1;
+[29-Aug-2025 18:08:37 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:37 America/Los_Angeles] category.php: Step 7 - Config included at 1756516117.9967
+[29-Aug-2025 18:08:37 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:37 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 6
+[29-Aug-2025 18:08:37 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":6,"name":"Trip Itineraries"}
+[29-Aug-2025 18:08:37 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:37 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:37 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:37 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:37 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:37 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:37 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:37 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:37 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:37 America/Los_Angeles] category.php: Sidebar rendered for request_id: 9a97994172588f39917c55ba47b5331d
+[29-Aug-2025 18:08:37 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 6
+[29-Aug-2025 18:08:37 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516117.9984
+[29-Aug-2025 18:08:39 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:39 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"ca73c0cad8c3446d3aa372745995fc18","page_rendered_9a97994172588f39917c55ba47b5331d":true}
+[29-Aug-2025 18:08:39 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:39 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:39 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"9a97994172588f39917c55ba47b5331d";page_rendered_9a97994172588f39917c55ba47b5331d|b:1;
+[29-Aug-2025 18:08:39 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:39 America/Los_Angeles] category.php: Step 7 - Config included at 1756516119.1592
+[29-Aug-2025 18:08:39 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:39 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 10
+[29-Aug-2025 18:08:39 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":10,"name":"User Balances"}
+[29-Aug-2025 18:08:39 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:39 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:39 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:39 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:39 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:39 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:39 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:39 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:39 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:39 America/Los_Angeles] category.php: Sidebar rendered for request_id: ca73c0cad8c3446d3aa372745995fc18
+[29-Aug-2025 18:08:39 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 10
+[29-Aug-2025 18:08:39 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516119.1642
+[29-Aug-2025 18:08:40 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:40 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"292ee15340e0d000e57f1806f97fffad","page_rendered_ca73c0cad8c3446d3aa372745995fc18":true}
+[29-Aug-2025 18:08:40 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:40 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:40 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"ca73c0cad8c3446d3aa372745995fc18";page_rendered_ca73c0cad8c3446d3aa372745995fc18|b:1;
+[29-Aug-2025 18:08:40 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:40 America/Los_Angeles] category.php: Step 7 - Config included at 1756516120.1117
+[29-Aug-2025 18:08:40 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:40 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 9
+[29-Aug-2025 18:08:40 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":9,"name":"Instrument Repairs"}
+[29-Aug-2025 18:08:40 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:40 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:40 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:40 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:40 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:40 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:40 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:40 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:40 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:40 America/Los_Angeles] category.php: Sidebar rendered for request_id: 292ee15340e0d000e57f1806f97fffad
+[29-Aug-2025 18:08:40 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 9
+[29-Aug-2025 18:08:40 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516120.1131
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"26506aec0297b1c115acd016c79d8c2c","page_rendered_292ee15340e0d000e57f1806f97fffad":true}
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"292ee15340e0d000e57f1806f97fffad";page_rendered_292ee15340e0d000e57f1806f97fffad|b:1;
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 7 - Config included at 1756516121.2514
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 7
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":7,"name":"Fundraising"}
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Sidebar rendered for request_id: 26506aec0297b1c115acd016c79d8c2c
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 7
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516121.253
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"bb89a154a7a9fe6a931b09099c289ebf","page_rendered_26506aec0297b1c115acd016c79d8c2c":true}
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"26506aec0297b1c115acd016c79d8c2c";page_rendered_26506aec0297b1c115acd016c79d8c2c|b:1;
+[29-Aug-2025 18:08:41 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 7 - Config included at 1756516121.8591
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 6
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":6,"name":"Trip Itineraries"}
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:41 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Sidebar rendered for request_id: bb89a154a7a9fe6a931b09099c289ebf
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 6
+[29-Aug-2025 18:08:41 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516121.861
+[29-Aug-2025 18:08:43 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:43 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"af9723efffce7b52511e7ee177c07023","page_rendered_bb89a154a7a9fe6a931b09099c289ebf":true}
+[29-Aug-2025 18:08:43 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:43 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:43 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"bb89a154a7a9fe6a931b09099c289ebf";page_rendered_bb89a154a7a9fe6a931b09099c289ebf|b:1;
+[29-Aug-2025 18:08:43 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:43 America/Los_Angeles] category.php: Step 7 - Config included at 1756516123.1669
+[29-Aug-2025 18:08:43 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:43 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
+[29-Aug-2025 18:08:43 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
+[29-Aug-2025 18:08:43 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:43 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:43 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:43 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:43 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:43 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:43 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:43 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:43 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:43 America/Los_Angeles] category.php: Sidebar rendered for request_id: af9723efffce7b52511e7ee177c07023
+[29-Aug-2025 18:08:43 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 14
+[29-Aug-2025 18:08:43 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516123.1687
+[29-Aug-2025 18:08:45 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:45 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"4c290bf0a2853973eeb7d1b896166f1a","page_rendered_af9723efffce7b52511e7ee177c07023":true}
+[29-Aug-2025 18:08:45 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:45 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:45 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"af9723efffce7b52511e7ee177c07023";page_rendered_af9723efffce7b52511e7ee177c07023|b:1;
+[29-Aug-2025 18:08:45 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:45 America/Los_Angeles] category.php: Step 7 - Config included at 1756516125.5121
+[29-Aug-2025 18:08:45 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:45 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 6
+[29-Aug-2025 18:08:45 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":6,"name":"Trip Itineraries"}
+[29-Aug-2025 18:08:45 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:45 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:45 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:45 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:45 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:45 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:45 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:45 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:45 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:45 America/Los_Angeles] category.php: Sidebar rendered for request_id: 4c290bf0a2853973eeb7d1b896166f1a
+[29-Aug-2025 18:08:45 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 6
+[29-Aug-2025 18:08:45 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516125.5159
+[29-Aug-2025 18:08:46 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:46 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"96707baaf7076bb42ac348629dcd6043","page_rendered_4c290bf0a2853973eeb7d1b896166f1a":true}
+[29-Aug-2025 18:08:46 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:46 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:46 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"4c290bf0a2853973eeb7d1b896166f1a";page_rendered_4c290bf0a2853973eeb7d1b896166f1a|b:1;
+[29-Aug-2025 18:08:46 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:46 America/Los_Angeles] category.php: Step 7 - Config included at 1756516126.9755
+[29-Aug-2025 18:08:46 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:46 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
+[29-Aug-2025 18:08:46 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
+[29-Aug-2025 18:08:46 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:46 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:46 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:46 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:46 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:46 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:46 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:46 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:46 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:46 America/Los_Angeles] category.php: Sidebar rendered for request_id: 96707baaf7076bb42ac348629dcd6043
+[29-Aug-2025 18:08:46 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 14
+[29-Aug-2025 18:08:46 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516126.9778
+[29-Aug-2025 18:08:57 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:57 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"06968671419427805a67195c57c747ca","page_rendered_96707baaf7076bb42ac348629dcd6043":true}
+[29-Aug-2025 18:08:57 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:57 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:57 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"96707baaf7076bb42ac348629dcd6043";page_rendered_96707baaf7076bb42ac348629dcd6043|b:1;
+[29-Aug-2025 18:08:57 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:57 America/Los_Angeles] category.php: Step 7 - Config included at 1756516137.4229
+[29-Aug-2025 18:08:57 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:57 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 6
+[29-Aug-2025 18:08:57 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":6,"name":"Trip Itineraries"}
+[29-Aug-2025 18:08:57 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:57 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:08:57 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:08:57 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:08:57 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:08:57 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:08:57 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:08:57 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:08:57 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:08:57 America/Los_Angeles] category.php: Sidebar rendered for request_id: 06968671419427805a67195c57c747ca
+[29-Aug-2025 18:08:57 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 6
+[29-Aug-2025 18:08:57 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516137.4245
+[29-Aug-2025 18:08:58 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:08:58 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"580daea97710805975b764bc20e15106","page_rendered_06968671419427805a67195c57c747ca":true}
+[29-Aug-2025 18:08:58 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:08:58 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:08:58 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"06968671419427805a67195c57c747ca";page_rendered_06968671419427805a67195c57c747ca|b:1;
+[29-Aug-2025 18:08:58 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:08:58 America/Los_Angeles] home.php: Step 7 - Config included at 1756516138.9695
+[29-Aug-2025 18:08:58 America/Los_Angeles] home.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:08:58 America/Los_Angeles] home.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:08:58 America/Los_Angeles] home.php: Step 36 - Script completed at 1756516138.9704
+[29-Aug-2025 18:09:00 America/Los_Angeles] config.php: Session ID: c6ca70765ec7034e52f4299135d60aeb
+[29-Aug-2025 18:09:00 America/Los_Angeles] config.php: Session contents: {"user_id":1,"role":"Admin","current_request_id":"4cfbf4ba55183935d30dfee476df2441","page_rendered_06968671419427805a67195c57c747ca":true,"page_rendered_580daea97710805975b764bc20e15106":true}
+[29-Aug-2025 18:09:00 America/Los_Angeles] config.php: Session save path: /tmp
+[29-Aug-2025 18:09:00 America/Los_Angeles] config.php: Raw cookies: {"PHPSESSID":"c6ca70765ec7034e52f4299135d60aeb"}
+[29-Aug-2025 18:09:00 America/Los_Angeles] config.php: Session file contents: user_id|i:1;role|s:5:"Admin";current_request_id|s:32:"580daea97710805975b764bc20e15106";page_rendered_06968671419427805a67195c57c747ca|b:1;page_rendered_580daea97710805975b764bc20e15106|b:1;
+[29-Aug-2025 18:09:00 America/Los_Angeles] config.php: Logging initialized
+[29-Aug-2025 18:09:00 America/Los_Angeles] category.php: Step 7 - Config included at 1756516140.4529
+[29-Aug-2025 18:09:00 America/Los_Angeles] category.php: Step 9 - User logged in, ID: 1, Role: Admin
+[29-Aug-2025 18:09:00 America/Los_Angeles] category.php: Step 10 - Fetching category ID: 14
+[29-Aug-2025 18:09:00 America/Los_Angeles] category.php: Step 14 - Category fetched: {"id":14,"name":"MANAGE"}
+[29-Aug-2025 18:09:00 America/Los_Angeles] category.php: Step 35 - Page marked as rendered
+[29-Aug-2025 18:09:00 America/Los_Angeles] category.php: Cleaned up session, current size: 171
+[29-Aug-2025 18:09:00 America/Los_Angeles] sidebar.php: Starting script
+[29-Aug-2025 18:09:00 America/Los_Angeles] sidebar.php: Config loaded successfully
+[29-Aug-2025 18:09:00 America/Los_Angeles] sidebar.php: User ID set to: 1
+[29-Aug-2025 18:09:00 America/Los_Angeles] sidebar.php: Categories fetched successfully: [{"id":6,"name":"Trip Itineraries"},{"id":7,"name":"Fundraising"},{"id":9,"name":"Instrument Repairs"},{"id":10,"name":"User Balances"},{"id":11,"name":"Accounts Receivable"},{"id":12,"name":"Accounts Payable"},{"id":13,"name":"Finances"},{"id":14,"name":"MANAGE"}]
+[29-Aug-2025 18:09:00 America/Los_Angeles] sidebar.php: Ordered categories prepared: [{"id":14,"name":"MANAGE","url":"category.php?id=14","submenu":[]},{"id":0,"name":"Home","url":"home.php","submenu":[]},{"id":1,"name":"User Profile","url":"category.php","submenu":[]},{"id":8,"name":"Roster","url":"category.php","submenu":[{"id":8,"name":"Contact Information","url":"contact_information.php"},{"id":5,"name":"Accounts","url":"accounts.php"}]},{"id":5,"name":"Inventory","url":"category.php","submenu":[{"id":2,"name":"Instrument Inventory","url":"category.php"},{"id":3,"name":"Uniform Inventory","url":"category.php"},{"id":4,"name":"Music Library","url":"category.php"}]},{"id":6,"name":"Trip Itineraries","url":"category.php","submenu":[]},{"id":7,"name":"Fundraising","url":"category.php","submenu":[]},{"id":9,"name":"Instrument Repairs","url":"category.php","submenu":[]},{"id":10,"name":"User Balances","url":"category.php","submenu":[]},{"id":11,"name":"Accounts Receivable","url":"category.php","submenu":[]},{"id":12,"name":"Accounts Payable","url":"category.php","submenu":[]},{"id":13,"name":"Finances","url":"category.php","submenu":[]}]
+[29-Aug-2025 18:09:00 America/Los_Angeles] sidebar.php: Session size after cleanup: 141
+[29-Aug-2025 18:09:00 America/Los_Angeles] sidebar.php: Script completed
+[29-Aug-2025 18:09:00 America/Los_Angeles] category.php: Sidebar rendered for request_id: 4cfbf4ba55183935d30dfee476df2441
+[29-Aug-2025 18:09:00 America/Los_Angeles] category.php: Debug - Falling back to else clause for category_id: 14
+[29-Aug-2025 18:09:00 America/Los_Angeles] category.php: Step 36 - Script completed at 1756516140.4548
